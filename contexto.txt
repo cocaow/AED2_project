@@ -1,0 +1,17 @@
+Enunciado: Implementação e Aplicação do Algoritmo de Johnson para Rotas de Ônibus
+
+Dado um grafo dirigido ponderado com pesos, incluindo pesos negativos, 
+implemente e aplique o algoritmo de Johnson para encontrar os caminhos mínimos entre todos os pares de vértices. 
+O grafo representa um conjunto de pontos de parada de ônibus e as rotas entre eles, com pesos indicando o tempo de viagem entre as paradas. 
+O grafo é representado como um dicionário de dicionários em Python, conforme mostrado abaixo:
+
+O grafo descreve um conjunto de paradas de ônibus e rotas onde:
+- A está conectado a B com tempo de viagem de 1 minuto,
+- B está conectado a C com tempo de viagem de 3 minutos e a E com tempo de viagem de 2 minutos,
+- C está conectado a A com tempo de viagem de 4 minutos,
+- D está conectado a C com tempo de viagem de 3 minutos e a E com tempo de viagem de 1 minuto,
+- E está conectado a D com tempo de viagem de 1 minuto.
+
+Sua tarefa é implementar o algoritmo e exibir os caminhos mínimos entre todos os pares de paradas de ônibus. 
+Certifique-se de tratar casos onde o grafo pode conter ciclos de peso negativo. 
+A saída deve apresentar os menores tempos de viagem entre todos os pares de paradas de ônibus de forma legível.
